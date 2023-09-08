@@ -1,1 +1,0 @@
-pyinstaller --onefile --uac-admin -n Disconnect-Timer Disconnect_Timer.py

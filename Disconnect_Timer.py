@@ -3,7 +3,7 @@ import os
 import pause
 from datetime import datetime
 from datetime import timedelta
-
+        
 try:
     exit_after_finish = False
     Index = -1
@@ -100,10 +100,10 @@ try:
                 'wmic path win32_networkadapter where index=' + index + ' call disable')
 
         elif _input == 5:
-            quit()
+            break
 
         if exit_after_finish:
-            quit()
+            break
 
 except:
     print('Error! Press Enter to Close')

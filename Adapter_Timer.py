@@ -12,6 +12,7 @@ try:
     selected_adapter = ""
 
     print("Welcome to Adapter Timer Program!")
+    print("Made by: https://github.com/alirezaabdi01")
     print("You can select your adapter and set a timer for disabling and enabling your adapter")
 
     try:
@@ -52,7 +53,7 @@ try:
     while True:
         clear()
 
-        print("selected_adapter:" + selected_adapter)
+        print("Selected_adapter:" + selected_adapter)
         print()
         print("1. Enable Adapter")
         print("2. Disable Adapter")

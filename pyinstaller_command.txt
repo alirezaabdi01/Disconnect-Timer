@@ -1,0 +1,2 @@
+pyinstaller --onefile -n Click-Timer Click_Timer.py
+pyinstaller --onefile --uac-admin -n Adapter-Timer Adapter_Timer.py

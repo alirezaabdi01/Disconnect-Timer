@@ -1,8 +1,12 @@
 # Disconnect-Timer
 A program to set timer for enabling or disabling a certain network adapter and more!
 
+Adapter-Timer: Turning off or on a certain network adapter in a certain time
+Click-Timer: Click on a certain place in a certain time
+
 * Adapter-timer program needs administrative privilegess to run and will show an error if you didn't give it
 * Add programs to your antivirus exceptions if your antivirus didn't allow the programs to run
+* to see your list of adapters search 'Ncpa.cpl' in Run
 * You can test that if you chose the correct adapter by disabling the adapter with the program
 * Also do this for your mobile tethered to your pc for less disconnectivies: go to device manager and in the buttom find and select Universal Serial Bus controllers and select each one below it and if that device have power managment, turn off 'allow the computer to turn off this device to save power' https://youtu.be/mdWx4Ak8ca8?t=82
 * \[For Android\] Also Turn on your phone developer mode and connect your phone to your pc and go to developer options in your phone settings and find and select 'Default USB Configuration' and select 'USB tethering'.
@@ -25,11 +29,14 @@ Click-Timer : کلیک کردن در مکان مشخص در زمان مشخص
 * دو تا فایل رو داخل یک پوشه بریزید و اون پوشه رو به استثناهای آنتی ویروس تون اضافه کنید.
 * برنامه Adapter-Timer نیاز به run as administator داره.
 * قبل از زمان دادن به برنامه Adapter-Timer ، اول آداپتوری که انتخاب کردید رو خاموش و روشن کنید تا مطمئن بشید درست انتخاب کردید.
+* * مانیتور خود را به صورت سخت افزاری خاموش نکنید و موس خود را از pc تون بیرون نکشید تا در روند برنامه click-timer مشکلی پیش نیاد.
 
 دو نکته برای جلوگیری از اختلال در دانلود کردن با نت شبانه:
 
 1- وارد device manager بشید و Universal Serial Bus controllers رو پیدا کنید و روش کلیک کنید. هر کدوم از گزینه های پایینش رو کلیک کنید و اگر تب power managment داشت وارد اون بشید و تیک اولش رو بردارید ('allow the computer to turn off this device to save power'). بعضی اوقات سیستم خودش اتصالات usb رو ممکنه قطع کنه یا قطع و وصل کنه که با اینکار دیگه اتفاق نمی افته.
 
 2- در گوشی خود developer mode رو روشن کنید (اسم شرکت گوشی تون رو سرچ کنید که چجوری میشه developer mode اش رو روشن کرد) بعد گوشی تون رو به سیستمی که می خواهید با اون دانلود کنید وصل کنید و وارد developers option تنظیمات گوشی تون بشید و گزینه Default USB Configuration رو پیدا کنید و واردش بشید بعد گزینه USB tethering رو انتخاب کنید. اینکار باعث میشه اگر هم سیم قطع و وصل شد، اینترنتش اتوماتیک وصل بشه.
+
+3- در سرچ ویندوز power and sleep رو سرچ کنید و گزینه اول رو انتخاب کنید و screen and sleep رو انتخاب کنید و دو گزینه sleep و turn off screen رو روی never بگذارید
 
 اگر سوالی داشتید حتما در Issues بپرسید

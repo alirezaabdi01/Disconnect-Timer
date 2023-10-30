@@ -2,6 +2,7 @@
 A program to set timer for enabling or disabling a certain network adapter and more!
 
 Adapter-Timer: Turning off or on a certain network adapter in a certain time
+
 Click-Timer: Click on a certain place in a certain time
 
 * Adapter-timer program needs administrative privilegess to run and will show an error if you didn't give it

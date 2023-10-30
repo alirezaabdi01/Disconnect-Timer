@@ -28,7 +28,7 @@ Click-Timer : کلیک کردن در مکان مشخص در زمان مشخص
 
 دو نکته برای جلوگیری از اختلال در دانلود کردن با نت شبانه:
 
-1- وارد device manager بشید و Universal Serial Bus controllers رو پیدا کنید و روش کلیک کنید. هر کدوم از گزینه های پایینش رو کلیک کنید و اگر تب power managment داشت وارد اون بشید و تیک اولش رو بردارید ('allow the computer to turn off this device to save power') .
+1- وارد device manager بشید و Universal Serial Bus controllers رو پیدا کنید و روش کلیک کنید. هر کدوم از گزینه های پایینش رو کلیک کنید و اگر تب power managment داشت وارد اون بشید و تیک اولش رو بردارید ('allow the computer to turn off this device to save power'). بعضی اوقات سیستم خودش اتصالات usb رو ممکنه قطع کنه یا قطع و وصل کنه که با اینکار دیگه اتفاق نمی افته.
 
 2- در گوشی خود developer mode رو روشن کنید (اسم شرکت گوشی تون رو سرچ کنید که چجوری میشه developer mode اش رو روشن کرد) بعد گوشی تون رو به سیستمی که می خواهید با اون دانلود کنید وصل کنید و وارد developers option تنظیمات گوشی تون بشید و گزینه Default USB Configuration رو پیدا کنید و واردش بشید بعد گزینه USB tethering رو انتخاب کنید. اینکار باعث میشه اگر هم سیم قطع و وصل شد، اینترنتش اتوماتیک وصل بشه.
 
